@@ -49,3 +49,23 @@
 // log(function() {
 //   console.log('hi')
 // })
+
+
+//using this in functions, while maintaining scope
+//define new variable to point to "this" of object, not whole window
+// var c = {
+//   name: "c",
+//   log: function() {
+//     var self = this
+//     self.name = "hello"
+//     console.log(self)
+//
+//     var newfunction = function (newname) {
+//       self.name = newname
+//     }
+//     newfunction("new name")
+//     console.log(self)
+//   }
+// }
+//
+// c.log();
