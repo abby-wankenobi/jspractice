@@ -69,3 +69,37 @@
 // }
 //
 // c.log();
+
+
+//accessing various elements in an array
+//calling a function within an array, with another array element as an argument
+// var arr = [
+//   1,
+//   false,
+//   {
+//     name: "abby",
+//     address: "123 main st"
+//   },
+//   function(name) {
+//     var greeting = "hello ";
+//     console.log(greeting + name);
+//   },
+//   "hello"
+// ]
+//
+// console.log(arr);
+// arr[3](arr[2].name)
+
+
+//automatic semicolon insertion
+//if curly brackets are placed on the line after the return statement,
+//the console.log will not work, as JS automatically puts a semicolon after return keyword
+
+// function getPerson () {
+//   //will return undefined if curly brackets are on next line
+//   return {
+//     firstname: "Tony"
+//   }
+// }
+//
+// console.log(getPerson())
