@@ -103,3 +103,39 @@
 // }
 //
 // console.log(getPerson())
+
+
+
+// //IIFE's (immediately involed functions)
+//
+// //function statement:
+//
+// function greet(name) {
+//   console.log("hello " + name)
+// }
+//
+// //this type of function must be invoked:
+// greet("john");
+//
+// //function expression:
+// var greetFunc = function(name) {
+//   console.log('hello ' + name)
+// };
+// greetFunc("john");
+//
+// // IIFE (immediately invoked function expression), invoked when funciton is created
+// var greeting = function(name) {
+//   return 'hello ' + name;
+// }("john");
+//
+// console.log(greeting)
+//
+// //nameless function expression (IIFE)
+// //use parenthesis outside the function (otherwise will error)
+// //function can be invoked inside or outside function parenthesis
+// var firstname = "john";
+//
+// (function(name) {
+//   var greeting = "inside iffe: hello"
+//   console.log(greeting + " " + name)
+// }(firstname))
