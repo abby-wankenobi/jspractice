@@ -139,3 +139,17 @@
 //   var greeting = "inside iffe: hello"
 //   console.log(greeting + " " + name)
 // }(firstname))
+
+
+
+// //rewatch closures video
+// //take notes on scope
+//
+// function greet(whattosay){
+//   return function(name) {
+//     console.log(whattosay + " " + name)
+//   }
+// }
+//
+// var sayHello = greet('Hi');
+// sayHello("Abby")
